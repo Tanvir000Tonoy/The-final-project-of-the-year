@@ -36,6 +36,10 @@ Here are the resouce that are required prior to jump into the project.
 - [PHP](https://www.w3schools.com/php/default.asp)
 
 
+`recommended contents:`
+1. [Edureka Web Development Tutorial.](https://youtu.be/Q33KBiDriJY?si=ptN0_gNu-ww70mK4)
+2. [Harshit Vashisth  JS Tutorial](https://youtube.com/playlist?list=PLwgFb6VsUj_l3XGLgZTf5lXq9rPAQ9COu&si=hf4lWfHayR7V5zTO)
+
 <!-- `Optional - for 2026`
 
 - [MySQL](https://www.w3schools.com/mysql/default.asp)
