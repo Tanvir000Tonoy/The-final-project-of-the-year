@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.button{
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: .1rem .1rem  .5rem GRAY ;
+    color: black;
+    background-color: rgb(65, 171, 236);
+    font-size: large;
+    transition: all ease 1s;
+}
+.button:active{
+    color: red;
+    background-color: aliceblue;
+    user-select: none;
+    
+}
+
+.do{
+    font-size: 4rem;
+}

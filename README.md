@@ -26,7 +26,7 @@ Your friend,
 Tonoy!
 </pre>
 
-![Image](./Learning-Materials/november2025.png)
+![Image](./Individual/__readme_files/november2025.png)
 Here are the resouce that are required prior to jump into the project. 
 
 - [HTML](https://www.w3schools.com/html/html_intro.asp)
@@ -42,9 +42,9 @@ Here are the resouce that are required prior to jump into the project.
 
 ## December 2025
 Week 01 - Front end : 
-![w1December2025](./Learning-Materials/december2025w1.png)
+![w1December2025](./Individual/__readme_files/december2025w1.png)
 - Tanvir - [Prototype 01](https://youtu.be/caHAKw_tE9s?si=jigdPZ9QuvKIhZRr)
-![Prototype01](./Learning-Materials/Tanvir/Prototypes/Prototype%201.png)
+![Prototype01](./Individual/Tanvir/Prototypes/Prototype%201.png)
 - Riyadh - [NAV]()
 - Shimul - [NAV]()
 
