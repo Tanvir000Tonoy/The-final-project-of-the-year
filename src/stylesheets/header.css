@@ -103,7 +103,8 @@ nav ul li a {
         position: absolute;
         top: 4.5rem;
         left: 0%;
-        background-color: #333;
+        color: black;
+        background-color: white;
         padding: 1rem;
         border-radius: .5rem;
         height: 100vh;
@@ -112,6 +113,9 @@ nav ul li a {
         animation-name: myAnimation;
     animation-duration: .5s;
 
+    }
+    nav ul li a {
+     color: #333;
     }
 
 }
