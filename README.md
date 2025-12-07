@@ -6,7 +6,7 @@
 |---|---|
 |1. Tanvir Rahman Tonoy| [Tanvir000Tonoy](https://github.com/Tanvir000Tonoy) |
 |2. Riyadh  | [riyadh5674](https://github.com/riyadh5674)
-|3. Shimul Sharker | [shimulsarker10](https://github.com/shimulsarker10)
+|3. Shimul Sarker | [shimulsarker10](https://github.com/shimulsarker10)
 
 
 <pre>
