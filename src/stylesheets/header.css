@@ -19,7 +19,7 @@
 
 */
 header {
-    background-color: #25952b;
+    background-color: #333;
     color: white;
 }
 
@@ -39,14 +39,26 @@ nav {
     display: flex;
     width: 40%;
 }
-.search-bar input {
+.search-bar form{
+    display: flex;
+    flex-direction: row;
+}
+.search-bar input[type='text'] {
     font-size: 1rem;
     padding: .5rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: 1rem 0rem 0rem 1rem;
     /* width: max-content; */
     width: 100%;
     /* outline: none; */
+}
+.search-bar input[type = 'submit']{
+    border-radius: 0rem 1rem 1rem 0rem;
+    border: none;
+    color: white;
+    width: 50%;
+    font-size: 1rem;
+    background-color: #555;
 }
 .menu-icon{
     display: none; /* Now it's invisible but in mobile view it will be visible */
@@ -72,11 +84,22 @@ nav ul {
     gap: 1.5rem;
 }
 
+nav ul li {
+    transition: all ease .2s;
+    padding: .5rem;
+    border-radius: .4rem;
+}
+nav ul li:hover{
+    
+    background-color: #222;
+}
+
 nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;
+    
 }
 
 @media (max-width: 768px) {
@@ -104,7 +127,7 @@ nav ul li a {
         position: absolute;
         top: 4.5rem;
         left: 0%;
-        background-color: #333;
+        background-color: #ececec;
         padding: 1rem;
         border-radius: .5rem;
         height: 100vh;
@@ -114,5 +137,8 @@ nav ul li a {
     animation-duration: .5s;
 
     }
+    nav ul li a {
+    color: #222;
+}
 
 }
