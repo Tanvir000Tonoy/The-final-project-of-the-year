@@ -12,7 +12,12 @@
      <header>
         <nav>
             <div class="logo">Logo</div>
-            <div class="search-bar"><input type="text" placeholder="Search..."></div>
+            <div class="search-bar">
+                <form action="index.php" method="get">  
+                    <input type="text" placeholder="Search..."> 
+                    <input type="submit" value="Find">
+                </form> 
+            </div>
             <div class="menu-icon" id="menu-icon">
                 <span></span>
                 <span></span>
@@ -27,14 +32,29 @@
         </nav>
      </header>
      <main>
+            <section class="left-column">
+                <h1>Left</h1>
+            </section>
             <section class="hero">
-                <h1>Welcome to Our Website</h1>
-                <p>Define the aura.</p>
-                <a href="#" class="cta-button">Get Started</a>
+                <!-- Product Tiles -->
+                <div class="tile">
+                    <div class="left"><img src="" alt="" srcset=""></div>
+                    <div class="right">
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dignissimos voluptatibus assumenda aliquam corporis mollitia, facilis illo illum qui unde?</p>
+                        <p>Ratings: <code>4.3</code> | Price : <code>100$</code> </p>
+                        <button onclick="alert('Feature will be added soon\nOn behalf of the Team \nTonoy')">Buy</button>
+                    </div>
+                </div>
+            </section>
+            <section class="right-column">
+                <h1>Right</h1>
             </section>
      </main>
+        <!--
+     $$$ see you later ! $$$
         <footer>
             <p>&copy; 2026 . All rights reserved.</p>   
-        </footer>
+        </footer> -->
 </body>
 </html>

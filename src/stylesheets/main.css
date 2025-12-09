@@ -1,4 +1,6 @@
 @import url('./header.css');
+@import url('./mainSection.css');
+@import url('./productTiles.css');
 
 *{
     padding: 0;

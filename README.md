@@ -48,9 +48,13 @@ Week 01 - Front end :
 - Riyadh - [NAV]()
 - Shimul - [NAV]()
 
-`NAV - not a video `
+`NAV - not a video`
 
+Week 02 - Front end : 
 
+![w3December2025](./src/img/DecemberWeek2.png)
+
+In this week we will focus on making the home page and also  assuring it's responsiveness for multiple platform
 <!-- `Optional - for 2026`
 
 - [MySQL](https://www.w3schools.com/mysql/default.asp)
