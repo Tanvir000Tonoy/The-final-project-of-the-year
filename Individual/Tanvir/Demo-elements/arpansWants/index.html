@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            background-color: whitesmoke;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .tile{
+            background-color: navy;
+            color: white;
+            padding: 1rem;
+            width: 15rem;
+            display: flex;
+            border-radius: 1rem;
+
+
+        }
+        .left, .right{
+            /* border: 1px solid red; */
+            width: 100%;
+            padding: .4rem;
+        }
+        .left{
+            background-color: #fff;
+            border-radius: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="tile">
+        <div class="left"></div>
+        <div class="right">
+            <h3>Title</h3>
+            <p>Description</p>
+            <button>BUY NOW</button>
+        </div>
+    </div>
+</body>
+</html>
